@@ -1,0 +1,47 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mint {
+    background-color: rgb(21, 159, 21, 0.8);
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgba(72, 74, 72, 0.8);
+    width: 90%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-top: 20px;
+    margin-bottom: 47px;
+}
+
+.tree {
+    position: absolute;
+    right: 13%;
+    bottom: 0;
+}
+
+.font {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+
+}
+
+@media (max-width: 700px) {
+    .tree {
+        right: 0;
+    }
+  }

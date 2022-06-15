@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Hind', sans-serif;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-outline-dark {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 70px 10px 70px!important;
+  color: #fff;
+  background-color: rgb(65, 61, 61);
+  border-radius: 30px;
+}
+
+.input-modify {
+  height: 70px;
+  width: 320px;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.Mint {
+  overflow: hidden;
+}
+
+a {
+  color: #fff;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(87, 85, 85);
+}
+
+.card {
+  background:rgb(87, 85, 85);
+}
+
+.bg-right-card {
+  background:#302f2f;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,49 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mint {
+    background-color: rgba(72, 74, 72, 0.8);
+    border-radius: 8px;
+}
+
+.orange {
+    margin: 0;
+    color: rgb(218, 155, 19);
+}
+
+.moneybg {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(72, 74, 72, 0.8);
+    border-radius: 8px;
+}
+.money {
+    position: absolute;
+}
+
+.decoration {
+    text-decoration: underline;
+}
+.decorationmint {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.textree {
+    display: flex;
+    padding-left: 50px;
+    align-items: end;
+}
+
+.tree {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
